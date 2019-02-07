@@ -14,6 +14,7 @@
 		ACBEC01C220CE73200623F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBEC01A220CE73200623F03 /* LaunchScreen.storyboard */; };
 		ACBEC027220CE73200623F03 /* DnDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC026220CE73200623F03 /* DnDAppTests.swift */; };
 		ACBEC032220CE73200623F03 /* DnDAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC031220CE73200623F03 /* DnDAppUITests.swift */; };
+		ACBEC040220CE7D300623F03 /* CharacterSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC03F220CE7D300623F03 /* CharacterSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACBEC02D220CE73200623F03 /* DnDAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DnDAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBEC031220CE73200623F03 /* DnDAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDAppUITests.swift; sourceTree = "<group>"; };
 		ACBEC033220CE73200623F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBEC03F220CE7D300623F03 /* CharacterSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ACBEC018220CE73200623F03 /* Assets.xcassets */,
 				ACBEC01A220CE73200623F03 /* LaunchScreen.storyboard */,
 				ACBEC01D220CE73200623F03 /* Info.plist */,
+				ACBEC03F220CE7D300623F03 /* CharacterSheetViewController.swift */,
 			);
 			path = DnDApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBEC040220CE7D300623F03 /* CharacterSheetViewController.swift in Sources */,
 				ACBEC014220CE73100623F03 /* ViewController.swift in Sources */,
 				ACBEC012220CE73100623F03 /* AppDelegate.swift in Sources */,
 			);
